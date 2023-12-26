@@ -1,2 +1,1 @@
-# My-Portfolio
-Tech used: HTML, CSS and JS
+# https://github.com/Sachin10-05/My-Portfolio/blob/main/MyPortfolio.gif
