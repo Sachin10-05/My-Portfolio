@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+
+
+<body>
+  <main class="main">
+
+    <nav class="navBar">
+      <h1>Sachin Kumar Portfolio</h1>
+      <div class="navigationMenu">
+        <a href="#aboutMe">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contactForm">Let's Connect!</a>
+      </div>
+    </nav>
+
+
+
+    <section class="heroSection">
+      <img class="profileImage" src="https://cdn.pixabay.com/photo/2016/08/20/05/38/avatar-1606916__340.png">
+      <div class="herosectionDetails">
+        <h1>Sachin Kumar</h1>
+        <h3>Dot Net Developer at Cognizant</h3>
+      </div>
+    </section>
+
+
+
+    <section class="aboutMe" id="aboutMe">
+      <h1>About Me...</h1>
+      <p>
+        I'm an Electronics & Communication Engineering Graduate from Haldia Institute of Technology, class of 2022.
+        Being a technology- enthusiast, I love exploring new technologies and leveraging them to solve real-life
+        problems.Also, I believe in
+        learning more skills which I wants to develop in myself so that I can increase my working capability.I'm
+        currently working as
+        software engineer trainee at Cognizant. Before this i have completed paid internship with Cognizant in the
+        domain of ADM .Net Full
+        Stack developer where I got trained on technologies and development tools like UI & Scripting technology,
+        Databases, C#, Testing,
+        Debugging and also got working experience with MS Visual Studio.
+      </p>
+    </section>
+
+
+
+    <section class="skillsAndProjects">
+      <div class="skills" id="skills">
+        <h1 class="cardHeading">Skills</h1>
+        <img src="./images/html.svg" title="HTML">
+        <img src="./images/css.svg" title="CSS">
+        <img src="./images/javascript.svg" title="Javascript">
+        <img src="./images/bootstrap.svg" title="Bootstrap">
+        <img src="./images/sql.svg" title="MS SQL server">
+        <img src="./images/cpp.svg" title="C++">
+        <img src="./images/csharp.svg" title="C#">
+        <img src="./images/python.svg" title="Python">
+      </div>
+
+      <div class="projects" id="projects">
+        <h1 class="cardHeading">Projects</h1>
+        <div class="projectContainer">
+          <img src="./images/project.svg">
+          <div class="projectDescription">
+            <h4>Disneyplus Hotstar clone</h4>
+            <p>Made a disney plus hotstar Clone using HTML & CSS.</p>
+          </div>
+        </div>
+        <div class="projectContainer">
+          <img src="./images/project.svg">
+          <div class="projectDescription">
+            <h4>Netflix clone</h4>
+            <p>Made a Netflix Clone using HTML & CSS.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <section class="contactForm" id="contactForm">
+      <h1>Let's Connect!</h1>
+      <div class="formGroup">
+        <label for="name">Enter Full Name</label><br />
+        <input type="text" id="name" placeholder="Full Name" />
+      </div>
+      <div class="formGroup">
+        <label for="email">Email</label><br />
+        <input type="text" id="email" placeholder="Email" />
+      </div>
+      <div class="formGroup">
+        <label for="message">Message</label><br />
+        <textarea placeholder="send some message!" id="message" name="w3review" rows="4" cols="50"></textarea>
+      </div>
+      <button class="submitButton" onClick={submit()}>Connect</button>
+    </section>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+
+
+</html>
